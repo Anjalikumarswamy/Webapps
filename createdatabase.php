@@ -2,8 +2,8 @@
  // DB connection info
  $host = "tcp:dbphp.database.windows.net,1433";
  $user = "anjali@dbphp";
- $pwd = "2bv13cs013#";
- $db = "Dbphp";
+ $pwd = "LSsetup1!";
+ $db = "mysqlphp1";
  try{
      $conn = new PDO( "sqlsrv:Server= $host ; Database = $db ", $user, $pwd);
      $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );

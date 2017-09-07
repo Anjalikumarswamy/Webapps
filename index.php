@@ -25,10 +25,10 @@
  </form>
  <?php
 // DB connection info
- $host = "tcp:dbphp.database.windows.net,1433";
- $user = "anjali@dbphp";
- $pwd = "2bv13cs013#";
- $db = "Dbphp";
+ $host = "mysqlphp1.mysql.database.azure.com";
+ $user = "mysql@mysqlphp1";
+ $pwd = "LSsetup1!";
+ $db = "mysqlphp1";
  // Connect to database.
  try {
      $conn = new PDO( "sqlsrv:Server= $host ; Database = $db ", $user, $pwd);
