@@ -1,6 +1,6 @@
 <?php
  // DB connection info
- $host = "tcp:dbphp.database.windows.net,1433";
+ $host = "mysqlphp1.mysql.database.azure.com";
  $user = "anjali@dbphp";
  $pwd = "LSsetup1!";
  $db = "mysqlphp1";
