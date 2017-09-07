@@ -1,9 +1,9 @@
 <?php
  // DB connection info
- $host = "mysqlphp1.mysql.database.azure.com";
- $user = "anjali@dbphp";
+ $host = "anjalidb.mysql.database.azure.com";
+ $user = "anjalidb@anjalidb";
  $pwd = "LSsetup1!";
- $db = "mysqlphp1";
+ $db = "anjali";
  try{
      $conn = new PDO( "sqlsrv:Server= $host ; Database = $db ", $user, $pwd);
      $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
